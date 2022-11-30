@@ -1,5 +1,5 @@
 function check(form) {
-    username = new Array("admin1@gmail.com", "admin2@gmail.com", "admin3@gmail.com","admin4@gmail.com");
+    username = new Array("admin1", "admin2", "admin3","admin4");
     password = new Array("admin1", "admin2", "admin3","admin4");
 
 	if(form.userid.value == username[0] && form.pswrd.value == password[0]||form.userid.value == username[1] && form.pswrd.value == password[1] || form.userid.value == username[2] && form.pswrd.value == password[2] || form.userid.value == username[3] && form.pswrd.value == password[3])  {
